@@ -8,7 +8,7 @@ import { PLACES } from '../data/places_health';
 const WorkPlaces = ({ navigation }) => {
   return (
     <ScrollView style={styles.container}>
-      <Text style={styles.title}>การงาน</Text>
+      <Text style={styles.title}>สุขภาพ</Text>
       {PLACES.map((place) => (
         <PlaceCard key={place.id} data={place} navigation={navigation} />
       ))}
